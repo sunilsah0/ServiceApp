@@ -1,0 +1,9 @@
+{
+  "name": "Hemfrid Clone Dev",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "forwardPorts": [3000, 19000, 19001, 19002],
+  "postCreateCommand": "npm install --prefix backend && npm install --prefix mobile"
+}
