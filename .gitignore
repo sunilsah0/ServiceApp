@@ -1,0 +1,12 @@
+node_modules
+.expo
+dist
+.env
+.DS_Store
+.vscode
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.idea
+coverage
+tmp
